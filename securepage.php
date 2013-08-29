@@ -1,3 +1,4 @@
+
 <!-- 
 Copyright 2013 Daniel Blair
 
@@ -18,7 +19,6 @@ Copyright 2013 Daniel Blair
 Template Name: Secure Page 
 */ 
 ?>
-
 <?php get_header(); ?>
 <div id="container">
 	<div id="content">
@@ -36,12 +36,29 @@ Template Name: Secure Page
 	<? } else { ?>
 
 	<h3>You have to be logged in to view this page</h3>
+	<br />
+
 	<div class="post">
 
-		This section of the site is only for registered users.
+		<p>This section of the site is only for registered users.</p>
+
+		<br />
+
+		<form class="ddfm" name='loginform' id='loginform' action='/wp-login.php' method='post'>
+			<p class="fieldwrap"><label for="log">Username</label><input class="fmtext" type="text" name="log" id="log" value="" tabindex='1' /></p>
+			<p class="fieldwrap"><label for="pwd">Password</label><input class="fmtext" type='password' name='pwd' id='pwd' value='' tabindex='2' /></p>
+			<input name='rememberme' type='hidden' id='rememberme' value='false' />
+			<div class="submit">
+				<input type='submit' name='submit' id='submit' value='Login &raquo;' tabindex='3' />
+				<?php ?>
+				<input type="hidden" name="redirect_to" value="<?php echo $_SERVER["REQUEST_URI"]; ?>" />
+			</div>
+		</form>
 
 		<? } ?>
+		
 	</div>
+</div>
 </div>
 </div>
 <?php get_sidebar(); ?>
