@@ -10,6 +10,9 @@ Useage
 
 Just upload securepage.php to your theme folder and you will be able to set the page template to the secure page.
 
+You will have to style the login form. You can see the page in action here:
+http://cmdann.ca/etherpad/
+
 Issues
 ======
 
