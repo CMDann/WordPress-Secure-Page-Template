@@ -30,7 +30,6 @@ Template Name: Secure Page
 
 		<div class="post">
 			<?php the_content(); ?>
-			[deleted first .post closing division]
 
 		<?php endwhile; ?>
 	<?php endif; ?>
