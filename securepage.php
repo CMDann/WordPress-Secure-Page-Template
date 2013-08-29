@@ -13,6 +13,12 @@ Copyright 2013 Daniel Blair
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
+<?php 
+/* 
+Template Name: Secure Page 
+*/ 
+?> ):
+
 <?php get_header(); ?>
 <div id="container">
 	<div id="content">
