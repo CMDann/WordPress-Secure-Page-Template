@@ -17,7 +17,7 @@ Copyright 2013 Daniel Blair
 /* 
 Template Name: Secure Page 
 */ 
-?> ):
+?>
 
 <?php get_header(); ?>
 <div id="container">
