@@ -24,3 +24,5 @@ Change Log
 08.28.2013 - Added a login form and fixed the missing footer tag.
 <br />
 08.29.2013 - Tagged current build as version 1
+<br />
+08.30.2013 - Added website to the git hub page and added release version number
