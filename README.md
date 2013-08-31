@@ -1,5 +1,6 @@
 WordPress-Secure-Page-Template
 ==============================
+<a href="https://coderwall.com/cmdann"><img alt="Endorse CMDann on Coderwall" src="https://api.coderwall.com/cmdann/endorsecount.png" /></a>
 
 This template creates a secure page. The contents of the page can only be displayed if the user is registered and logged in. This is not total security but it does prevent unregistered users from getting access to a portion of your website.
 
